@@ -1,0 +1,14 @@
+.projects-section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+.projects-section h2 {
+margin-bottom: 20px;
+}
+
+.projects-section ul {
+list-style-type: none;
+padding: 0;
+}
+  
