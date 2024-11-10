@@ -29,7 +29,7 @@ const Header = () => {
             </a>
           </div>
           <a
-            href={process.env.PUBLIC_URL + "/resume.pdf"} // Replace with your actual resume path
+            href={process.env.PUBLIC_URL + "/resume.pdf"} 
             download
             className="resume-btn"
           >
