@@ -6,8 +6,8 @@ const ProjectList = () => {
   const projects = [
     {
       title: "Static Analysis for False Sharing Bugs with LLM (in progress)",
-      description: "Training Meta Llama 3.1 to detect and correct false sharing memory bugs in code benchmarks using prompt tuning",
-      link: "https://github.com/hibaa8/Correcting-False-Sharing-Bugs-with-LLM",
+      description: "Training Meta Llama 3.1 to detect and correct false sharing memory bugs in code benchmarks using prompt engineering. Link can be shared by request; github repository is currently private since this is ongoing research.",
+      link: "",
     },
     {
       title: "Fabrich",
@@ -17,7 +17,7 @@ const ProjectList = () => {
     },
     {
       title: "HTTP Web Server",
-      description: "Developed a multithreaded HTTP web server in C to handle static file requests.",
+      description: "Developed a multithreaded HTTP web server in C to handle static file requests and integrate with an external MDB lookup service, efficiently processing dynamic queries and displaying results through a web interface.",
       link: "https://gist.github.com/hibaa8/7df06948bb99cdacbc1c7cd9f1efae50",
       link2:null
     },
