@@ -8,9 +8,11 @@ const Header = () => {
       <div className="header-content">
         <div className="text-section">
           <h1>Hiba Altaf</h1>
-          <p><b>School: Columbia University</b></p>
-          <p><b>Major: Computer Science</b></p>
-          <p><b>Graduating Year: 2027</b></p>
+          <b>
+          <p>School: <span className="blue-txt">Columbia University</span></p>
+          <p>Major: <span className="blue-txt">Computer Science</span></p>
+          <p>Graduating Year: <span className="blue-txt">2027</span></p>
+          </b>
           <p>
           Passionate about software development and eager to apply my skills in real-world projects. Currently seeking internships in software development—feel free to get in touch!
           </p>

@@ -12,6 +12,10 @@ header {
   flex-wrap: nowrap; 
 }
 
+.blue-txt{
+  color: rgb(112, 197, 234);
+}
+
 .text-section {
   flex: 1;
   font-size: 1.1em;
