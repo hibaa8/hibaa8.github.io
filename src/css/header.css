@@ -1,4 +1,3 @@
-
 header {
   background-color: #282c34;
   color: white;
@@ -10,19 +9,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; 
 }
 
 .text-section {
   flex: 1;
-  max-width: 100%;
-  padding: 20px;
-  padding-right: 10px; 
+  font-size: 1.1em;
+  max-width: 50%;
+  padding-left: 20px;
+  padding-right: 10px;
+
 }
 
 .text-section h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .text-section p {
@@ -32,11 +32,11 @@ header {
 
 .social-links {
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .social-links a {
-  margin-right: 20px; 
+  margin-right: 20px;
   color: rgb(112, 197, 234);
   text-decoration: none;
 }
@@ -47,8 +47,9 @@ header {
 
 .resume-btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
+
+  margin-bottom:10px;
+  padding: 10px 10px;
   background-color: rgb(112, 197, 234);
   color: black;
   border: none;
@@ -61,9 +62,9 @@ header {
   background-color: rgb(78, 183, 228);
 }
 
-
 .image-section {
-  flex: 1;
+  flex-shrink: 0;
+  margin-left: 30px; 
   display: flex;
   justify-content: flex-end;
   padding: 20px;
@@ -75,7 +76,6 @@ header {
   border: 2px solid white;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
-
 
 @media (max-width: 768px) {
   .header-content {

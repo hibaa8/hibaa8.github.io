@@ -1,14 +1,14 @@
 .projects-section {
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 20px 20px 40px;
   }
   
 .projects-section h2 {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .projects-section ul {
-list-style-type: none;
-padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
   

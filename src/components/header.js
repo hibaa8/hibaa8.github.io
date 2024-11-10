@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import '../css/header.css';
 
 const Header = () => {
@@ -8,9 +8,19 @@ const Header = () => {
       <div className="header-content">
         <div className="text-section">
           <h1>Hiba Altaf</h1>
-          <p>2nd year Computer Science Student at Columbia University.</p>
-          <p>Passionate about software development. Eager to continue learning and making impactful applications.</p>
+          <p><b>School: Columbia University</b></p>
+          <p><b>Major: Computer Science</b></p>
+          <p><b>Graduating Year: 2027</b></p>
+          <p>
+          Passionate about software development and eager to apply my skills in real-world projects. Currently seeking internships in software development—feel free to get in touch!
+          </p>
           <div className="social-links">
+            <a
+              href="mailto:hibaaltaf98@gmail.com" 
+              aria-label="Email"
+            >
+              <FaEnvelope size={30} />
+            </a>
             <a
               href="https://www.linkedin.com/in/hiba-altaf-5aa2a21b5/"
               target="_blank"
