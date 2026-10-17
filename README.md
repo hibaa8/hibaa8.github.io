@@ -1,6 +1,6 @@
 # Hiba Altaf — personal website
 
-A responsive, monochrome portfolio built with React 19 and Vite. Three static entry pages work directly on GitHub Pages, including repository subpaths. CSS provides scroll entrances, hover motion, and an animated route illustration. Reduced-motion preferences are respected.
+A responsive, monochrome portfolio built with React 19 and Vite. Three static entry pages work directly on GitHub Pages, including repository subpaths. CSS provides a subtle page entrance and link hover effect. Reduced-motion preferences are respected.
 
 ## Run locally
 
@@ -36,7 +36,7 @@ Source lives on `master`. The existing GitHub Pages configuration serves the com
 
 ## Content notes
 
-Facts come from the supplied October 2026 résumé, the user's leadership descriptions, and linked public GitHub profiles/repositories. Project illustrations are original typographic/diagrammatic cover art, not product screenshots.
+Facts come from the supplied October 2026 résumé, the user's leadership descriptions, and linked public GitHub profiles/repositories. Vaylo screenshots come from the official Vaylo website. The SUITS demo was supplied by Hiba.
 
 - Vaylo links to its live website and App Store listing.
 - WiCS and CSI leadership titles are confirmed by Hiba; WiCS links to the website she built.
