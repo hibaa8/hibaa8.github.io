@@ -1,6 +1,6 @@
 # Hiba Altaf — personal website
 
-A responsive, monochrome portfolio built with React 19 and Vite. Three static entry pages work directly on GitHub Pages, including repository subpaths. CSS provides a subtle page entrance and link hover effect. Reduced-motion preferences are respected.
+A responsive, monochrome portfolio built with React 19 and Vite. Five static entry pages work directly on GitHub Pages, including repository subpaths. IntersectionObserver and CSS provide subtle scroll entrances and link hover effects. Reduced-motion preferences are respected.
 
 ## Run locally
 
@@ -46,7 +46,7 @@ Facts come from the supplied October 2026 résumé, the user's leadership descri
 
 The website uses the repository’s existing GitHub Pages deployment.
 
-The CSI project includes the supplied demo video, optimized for playback, and an expandable summary of the 2026 proposal. Proposed work is explicitly identified. The full proposal is not included in the public site.
+The CSI project includes the supplied demo video, optimized for playback, and an expandable summary of the 2026 proposal. Proposed work is explicitly identified. The full supplied proposal is available as `public/SUITS-2026-Proposal.pdf`, linked from the CSI project.
 
 ## Vaylo case study
 
