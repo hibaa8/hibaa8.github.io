@@ -19,18 +19,18 @@ const jobs = [
   },
   {
     id: 'amazon-2025', company: 'Amazon', dates: 'May – August 2025', location: 'Seattle, WA',
-    summary: 'Built and deployed a full-stack product comparison experience for Alexa shopping.',
+    summary: 'Designed the interface and built the backend for a deployed Alexa shopping comparison feature.',
     bullets: [
-      'Built and shipped a product comparison experience using TypeScript and Java across three Alexa device classes. The work was deployed within an Alexa shopping platform serving more than one million daily customers.',
+      'Designed the product comparison interface and built its frontend and backend using TypeScript and Java across three Alexa device classes. The feature was deployed within an Alexa shopping platform serving more than one million daily customers.',
       'Implemented a Java Spring Boot orchestration layer and REST API integrated with Alexa’s core shopping flow. Reduced response latency by 1.5–2 seconds, and validated components and services through unit and integration tests.',
-      'Partnered with a UI designer and product manager to design and prototype the comparison interface in Figma. Incorporated feedback to refine layouts and interaction patterns before implementing the experience.'
+      'Designed and prototyped the interface in Figma, partnering with a UI designer and product manager for feedback. Refined the layouts and interaction patterns, then implemented the interface that was deployed alongside the backend I built.'
     ],
     skills: ['TypeScript', 'Java', 'Spring Boot', 'REST APIs', 'Service orchestration', 'Latency optimization', 'Unit & integration testing', 'Figma', 'Cross-device UI development'],
     learned: [
       'How frontend decisions, API design, and backend orchestration fit together in a customer-facing shopping experience.',
       'How to balance responsiveness and consistency across device classes, and use feedback from design and product partners to refine an implementation before shipping.'
     ],
-    reference: {url:amazonArticle+'#:~:text=Compare%20products%20from%20search%20results',label:'Product context: Amazon’s comparison features',description:'Amazon’s overview explains how shoppers compare products side by side. The link opens the product-comparison section.'}
+    reference: {url:amazonArticle+'#:~:text=Compare%20products%20from%20search%20results',label:'Deployed feature: Amazon’s product comparison',description:'Amazon’s article documents the released product-comparison feature. The link opens the section showing the side-by-side comparison experience.'}
   },
   {
     id: 'amazon-2024', company: 'Amazon', dates: 'May – August 2024', location: 'Seattle, WA',
