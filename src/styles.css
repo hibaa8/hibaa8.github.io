@@ -3,3 +3,5 @@
 .inline-link{text-decoration:underline;text-underline-offset:3px}
 
 @media(max-width:600px){.site-header{flex-wrap:wrap;gap:15px}.site-header nav{width:100%;gap:23px;font-size:12px}}
+
+.hero .hero-summary{font-size:16px;color:#222}.hero .job-search{font-weight:600;color:#111;margin-top:15px;margin-bottom:12px}
