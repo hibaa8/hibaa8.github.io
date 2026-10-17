@@ -46,7 +46,7 @@ Facts come from the supplied October 2026 résumé, the user's leadership descri
 
 The website uses the repository’s existing GitHub Pages deployment.
 
-The CSI project includes the supplied demo video, optimized for playback, and an expandable summary of the 2026 proposal. Proposed work is explicitly identified. The full supplied proposal is available as `public/SUITS-2026-Proposal.pdf`, linked from the CSI project.
+The CSI project includes the supplied demo video, optimized for playback, and a direct PDF link to the 2026 proposal. Proposed work is explicitly identified. The full supplied proposal is available as `public/SUITS-2026-Proposal.pdf`, linked from the CSI project.
 
 ## Vaylo case study
 
