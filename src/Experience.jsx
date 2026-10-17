@@ -44,8 +44,7 @@ const jobs = [
     learned: [
       'How to evaluate an LLM pipeline against catalog data and connect model-quality measurements with the engineering needed to process a larger dataset.',
       'How to trace a customer-visible issue through a backend service and address the behavior of a multi-item shopping flow.'
-    ],
-    reference: {url:amazonArticle+'#:~:text=Effortlessly%20add%20items%20to%20your%20cart',label:'Product context: adding items with Alexa',description:'Amazon’s article describes the conversational add-to-cart experience supported by Alexa shopping services.'}
+    ]
   },
   {
     id: 'trillium', company: 'Trillium Trading', dates: 'July 2023 – May 2024', location: 'New York, NY',
