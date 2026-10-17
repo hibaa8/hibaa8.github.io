@@ -38,7 +38,7 @@ function Home(){return <><section className="hero reveal"><img className="headsh
 const leadershipRoles = [
  {role:'Co-Lead, CSI SUITS',org:'Columbia Space Initiative',summary:'Co-led the CSI SUITS team and added an AI assistant to the astronaut interface for NASA’s SUITS Design Challenge.',image:'./suits-poster.jpg',imageAlt:'CSI SUITS astronaut interface during field testing',links:[['2026 repository',links.suits],['Proposal (PDF)','./SUITS-2026-Proposal.pdf'],['Watch field testing','./projects.html#suits']]},
  {role:'Lead Web Developer',org:'Columbia Space Initiative',summary:'Updated and improved the CSI website to help increase funding and make it easier for members to update content.',links:[['CSI website',links.csi]]},
- {role:'Press Director, SUITS',org:'Columbia Space Initiative',summary:'Worked on Instagram and event communications for SUITS.',links:[['SUITS project','./projects.html#suits']]},
+ {role:'Press Director, SUITS',org:'Columbia Space Initiative',summary:'Worked on Instagram and event communications for SUITS.',links:[['CSI Instagram','https://www.instagram.com/columbiaspaceinitiative/?hl=en']]},
  {role:'Education Lead',org:'Application Development Initiative',summary:'Arranged workshops to help CS underclassmen and provided mentorship on classes, projects, internships, and recruiting.',links:[]},
  {role:'Lead Web Developer, WiCS',org:'Columbia Women in Computer Science',summary:'Built, updated, and improved the WiCS website to help increase funding and make it easier for members to update content.',links:[['WiCS website',links.wics]]}
 ];
