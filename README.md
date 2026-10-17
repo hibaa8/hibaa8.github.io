@@ -30,7 +30,7 @@ Source lives on `master`. The existing GitHub Pages configuration serves the com
 
 - `src/main.jsx`: biography, experience, leadership, projects, contact links.
 - `src/styles.css`: responsive design and animations.
-- `public/portrait.jpg`: supplied portrait, displayed in grayscale with CSS.
+- `public/portrait.jpg`: supplied portrait, displayed in its original color.
 - `public/Hiba-Altaf-Resume.pdf`: supplied résumé.
 - `index.html`, `experience.html`, `projects.html`: per-page metadata.
 
