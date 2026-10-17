@@ -47,3 +47,7 @@ Facts come from the supplied October 2026 résumé, the user's leadership descri
 The website uses the repository’s existing GitHub Pages deployment.
 
 The CSI project includes the supplied demo video, optimized for playback, and an expandable summary of the 2026 proposal. Proposed work is explicitly identified. The full proposal is not included in the public site.
+
+## Vaylo case study
+
+`vaylo.html` is linked from Projects, without a navigation tab. `src/Vaylo.jsx` contains five feature demos, a high-level architecture overview, and Hiba-confirmed traction of around 50 users. Development is paused pending funding to restart the app and support a wider launch. The Projects page also includes two YouTube side projects.
