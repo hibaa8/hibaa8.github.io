@@ -24,7 +24,7 @@ export default function Vaylo(){
 <section><span className="system-label">AI</span><h4>OpenAI</h4><p>Language models</p><h4>LangChain</h4><p>Model & tool integration</p></section>
 <section><span className="system-label">Voice & calling</span><h4>ElevenLabs</h4><p>AI voice</p><h4>Twilio</h4><p>Calling infrastructure</p></section>
 <section><span className="system-label">Data & state</span><h4>Supabase / PostgreSQL</h4><p>Persistent application data</p><h4>Redis</h4><p>State & caching</p></section>
-</div><figcaption>Component overview of Vaylo’s app, AI, voice, and data stack.</figcaption></figure><dl className="tech-list"><div><dt>Client</dt><dd>Swift, Apple HealthKit</dd></div><div><dt>AI & backend</dt><dd>Python, LangGraph, LangChain, OpenAI</dd></div><div><dt>Voice & calls</dt><dd>ElevenLabs, Twilio</dd></div><div><dt>Data</dt><dd>Supabase / PostgreSQL, Redis</dd></div></dl></section>
+</div><figcaption>Component overview of Vaylo’s app, AI, voice, and data stack.</figcaption></figure></section>
     <section className="case-section status-section"><h2>Where things stand</h2><p>Vaylo reached <strong>around 50 users on the app</strong>.</p><p>The project is currently paused while we secure funding to restart the app and support a wider launch. We plan to resume development once that funding is in place.</p><External href="mailto:hibaaltaf98@gmail.com">Get in touch about Vaylo</External></section>
   </article>
 }
