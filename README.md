@@ -38,7 +38,7 @@ Source lives on `master`. The existing GitHub Pages configuration serves the com
 
 Facts come from the supplied October 2026 résumé, the user's leadership descriptions, and linked public GitHub profiles/repositories. Vaylo screenshots come from the official Vaylo website. The SUITS demo was supplied by Hiba.
 
-- Vaylo links to its live website and App Store listing.
+- Vaylo links to its website; the App Store link is currently omitted. The site notes its previous iOS release and use.
 - WiCS and CSI leadership titles are confirmed by Hiba; WiCS links to the website she built.
 - CodeCure repository is linked from Hiba's public GitHub profile. It could not be fetched during preparation; visitors may need repository access.
 - SUITS links to the 2026 Magic Leap repository provided by Hiba; the Magic Leap 2 project description comes from the résumé.
