@@ -1,58 +1,64 @@
 import React from 'react';
 
-const workflow = [
-  ['01', 'Triage', 'OpenProse extracts bug intent'],
-  ['02', 'Workspace', 'GoTemporal worker · Docker'],
-  ['03', 'Resolve', 'Pi + Codex · edit and review agents'],
-  ['04', 'Record', 'ActiveGraph monitoring · outcome log'],
+const harness = [
+  {id:'01', title:'Bug intake', system:'OpenProse', detail:'Extract task intent from the incoming bug.'},
+  {id:'02', title:'Workspace', system:'GoTemporal · Docker', detail:'Triage into an isolated worker-run container.'},
+  {id:'03', title:'Context', system:'Memory-building agent', detail:'Assemble task context and relevant approved lessons.'},
+  {id:'04', title:'Resolution', system:'Pi · Codex', detail:'Delegate code edits and review to specialist agents.'},
+  {id:'05', title:'Run record', system:'ActiveGraph · Oracle DB', detail:'Monitor activity; persist actions and fix outcome.'},
 ];
 
 export default function OracleStraiker(){
   return <section className="straiker-project reveal" id="straiker" aria-labelledby="straiker-title">
     <h2 id="straiker-title">Oracle Straiker</h2>
     <p className="straiker-subtitle">Autonomous bug resolution system</p>
-    <p className="straiker-intro">Straiker triages bugs into isolated workspaces where agents edit and review code. I built the learning layer that lets later runs draw on what earlier runs discovered.</p>
+    <p className="straiker-intro">An incoming bug is turned into task intent, routed to an isolated GoTemporal and Docker workspace, and given context by a memory-building agent. Pi then runs a Codex-powered agent with separate editing and review agents. ActiveGraph monitors the run, and its actions and outcome are recorded in Oracle Database.</p>
 
     <div className="straiker-highlights" aria-label="My contribution and impact">
-      <div><span className="straiker-kicker">My work</span><ul>
-        <li>Recorded each agent run, its actions, and whether the fix succeeded in Oracle Database.</li>
-        <li>Built a daily consolidation workflow that turns run histories into learning cards for human review.</li>
-        <li>Fed approved cards back into the context of relevant future bugs.</li>
+      <div><span className="straiker-kicker">What I built</span><ul>
+        <li>Added per-run recording of the agent’s actions and whether its fix succeeded.</li>
+        <li>Built a daily offline workflow that reviews those runs, extracts reusable lessons, and proposes learning cards.</li>
+        <li>Added human review before approved cards become retrievable context for future bugs.</li>
       </ul></div>
-      <div className="straiker-impact"><span className="straiker-kicker">Impact</span><strong>+22%</strong><span>bug-resolution accuracy</span><p>Also reduced time to resolution.</p></div>
+      <div className="straiker-impact"><span className="straiker-kicker">Impact</span><strong>+22%</strong><span>bug-resolution accuracy</span><p>Resolution time also decreased.</p></div>
     </div>
 
-    <figure className="straiker-flow" aria-labelledby="straiker-flow-title">
-      <figcaption id="straiker-flow-title">Bug-resolution harness <span>existing system + my recording layer</span></figcaption>
-      <ol>{workflow.map(([number,title,detail])=><li key={number}><span>{number}</span><strong>{title}</strong><small>{detail}</small></li>)}</ol>
+    <figure className="straiker-harness" aria-labelledby="straiker-harness-title">
+      <figcaption id="straiker-harness-title"><span>01 / ONLINE</span><strong>End-to-end resolution harness</strong><small>Existing agent system with my run-recording layer</small></figcaption>
+      <ol>{harness.map(step=><li key={step.id}><span className="straiker-step-id">{step.id}</span><h3>{step.title}</h3><code>{step.system}</code><p>{step.detail}</p></li>)}</ol>
     </figure>
 
     <figure className="straiker-memory" aria-labelledby="straiker-memory-title">
-      <figcaption id="straiker-memory-title">Learning memory <span>designed and implemented by me</span></figcaption>
+      <figcaption id="straiker-memory-title"><span>02 / LEARNING LOOP</span><strong>Persistent memory, read, and write</strong><small>My self-learning layer, inspired by offline consolidation in Auto-Dreamer</small></figcaption>
       <div className="straiker-memory-grid">
         <section className="straiker-memory-panel">
-          <span className="straiker-panel-id">A / STORE</span>
-          <h3>Oracle memory bank</h3>
-          <p>Run histories and approved learning cards, stored for later retrieval.</p>
-          <div className="straiker-memory-entries" aria-label="Stored memory types">
-            <div><code>RUN</code><span>actions · outcome · source trace</span></div>
-            <div><code>CARD</code><span>approved lesson · source run</span></div>
-          </div>
+          <span className="straiker-panel-id">A / MEMORY BANK</span>
+          <h3>Oracle Database</h3>
+          <p>Two linked kinds of memory are kept across bug workspaces.</p>
+          <div className="straiker-record"><code>RUN RECORD</code><span>bug intent · action/observation trace · fix outcome</span></div>
+          <div className="straiker-record"><code>LEARNING CARD</code><span>reusable lesson · source runs · approval state</span></div>
+          <div className="straiker-panel-note">Only approved cards are read into future agent context.</div>
         </section>
         <section className="straiker-memory-panel">
-          <span className="straiker-panel-id">B / READ</span>
-          <h3>Before a new bug</h3>
-          <p>Use the extracted task intent to retrieve relevant approved cards.</p>
-          <div className="straiker-mini-flow"><span>Bug intent</span><i aria-hidden="true">→</i><span>Rank cards</span><i aria-hidden="true">→</i><span>Agent context</span></div>
+          <span className="straiker-panel-id">B / READ OPERATION</span>
+          <h3>Before a bug run</h3>
+          <ol className="straiker-operation">
+            <li><code>INPUT</code><span>OpenProse task intent</span></li>
+            <li><code>QUERY</code><span>Retrieve relevant approved cards from the memory bank</span></li>
+            <li><code>OUTPUT</code><span>Memory agent assembles context for Pi and its edit/review agents</span></li>
+          </ol>
         </section>
         <section className="straiker-memory-panel">
-          <span className="straiker-panel-id">C / WRITE</span>
+          <span className="straiker-panel-id">C / WRITE OPERATION</span>
           <h3>After completed runs</h3>
-          <p>Consolidate recorded outcomes once a day; publish only reviewed lessons.</p>
-          <div className="straiker-mini-flow"><span>Run traces</span><i aria-hidden="true">→</i><span>Daily agent</span><i aria-hidden="true">→</i><span>Human review</span></div>
+          <ol className="straiker-operation">
+            <li><code>CAPTURE</code><span>Save run trace and success/failure result</span></li>
+            <li><code>DAILY</code><span>Consolidation agent compares histories and drafts learning cards</span></li>
+            <li><code>REVIEW</code><span>Humans approve cards in a dashboard before they enter the bank</span></li>
+          </ol>
         </section>
       </div>
-      <div className="straiker-feedback"><span>Approved learning cards return to the memory bank</span><span aria-hidden="true">↺</span></div>
+      <div className="straiker-feedback"><span>Completed run → consolidated lesson → human approval → future bug context</span><span aria-hidden="true">↺</span></div>
     </figure>
 
     <div className="straiker-references"><span>Related ideas and components</span><a href="https://arxiv.org/abs/2605.20616" target="_blank" rel="noopener noreferrer">Auto-Dreamer (inspiration) ↗</a><a href="https://arxiv.org/abs/2605.21997" target="_blank" rel="noopener noreferrer">ActiveGraph ↗</a><a href="https://prose.md/" target="_blank" rel="noopener noreferrer">OpenProse ↗</a></div>
