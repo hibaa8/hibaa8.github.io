@@ -12,7 +12,7 @@ export default function OracleStraiker(){
   return <section className="straiker-project reveal" id="straiker" aria-labelledby="straiker-title">
     <h2 id="straiker-title">Oracle Straiker</h2>
     <p className="straiker-subtitle">Autonomous bug resolution system</p>
-    <p className="straiker-intro">An incoming bug is turned into task intent, routed to an isolated GoTemporal and Docker workspace, and given context by a memory-building agent. Pi then runs a Codex-powered agent with separate editing and review agents. ActiveGraph monitors the run, and its actions and outcome are recorded in Oracle Database.</p>
+    <p className="straiker-intro">Straiker routes bugs to isolated GoTemporal and Docker workspaces where Pi coordinates Codex-powered editing and review agents. I built the learning layer that records run outcomes, consolidates lessons, and brings approved knowledge into future runs.</p>
 
     <div className="straiker-highlights" aria-label="My contribution and impact">
       <div><span className="straiker-kicker">What I built</span><ul>
@@ -23,6 +23,9 @@ export default function OracleStraiker(){
       <div className="straiker-impact"><span className="straiker-kicker">Impact</span><strong>+22%</strong><span>bug-resolution accuracy</span><p>Resolution time also decreased.</p></div>
     </div>
 
+    <details className="straiker-technical">
+      <summary><strong>Explore the technical workflow</strong><span>Agent harness · memory read/write loop</span><span className="straiker-toggle" aria-hidden="true">+</span></summary>
+      <div className="straiker-technical-content">
     <figure className="straiker-harness" aria-labelledby="straiker-harness-title">
       <figcaption id="straiker-harness-title"><span>01 / ONLINE</span><strong>End-to-end resolution harness</strong><small>Existing agent system with my run-recording layer</small></figcaption>
       <ol>{harness.map(step=><li key={step.id}><span className="straiker-step-id">{step.id}</span><h3>{step.title}</h3><code>{step.system}</code><p>{step.detail}</p></li>)}</ol>
@@ -60,6 +63,8 @@ export default function OracleStraiker(){
       </div>
       <div className="straiker-feedback"><span>Completed run → consolidated lesson → human approval → future bug context</span><span aria-hidden="true">↺</span></div>
     </figure>
+      </div>
+    </details>
 
     <div className="straiker-references"><span>Related ideas and components</span><a href="https://arxiv.org/abs/2605.20616" target="_blank" rel="noopener noreferrer">Auto-Dreamer (inspiration) ↗</a><a href="https://arxiv.org/abs/2605.21997" target="_blank" rel="noopener noreferrer">ActiveGraph ↗</a><a href="https://prose.md/" target="_blank" rel="noopener noreferrer">OpenProse ↗</a></div>
   </section>
