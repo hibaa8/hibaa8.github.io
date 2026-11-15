@@ -1,31 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1108 494" role="img" aria-labelledby="title desc">
-<title id="title">Fictional demo graph — current typed wiki graph</title>
-<desc id="desc">4 wiki pages, 3 active typed relationships, 1 registered source.</desc>
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#798698"/></marker></defs>
-<rect width="1108" height="494" fill="#f7f9fc"/>
-<text x="52" y="55" fill="#172338" font-size="26" font-weight="700" font-family="system-ui, sans-serif">Fictional demo graph</text>
-<text x="52" y="84" fill="#526176" font-size="14" font-family="system-ui, sans-serif">4 pages  ·  3 active relationships  ·  1 registered source</text>
-<text x="52" y="112" fill="#738197" font-size="12" font-family="system-ui, sans-serif">Typed, source-backed edges from Markdown · 2026-11-15</text>
-<path d="M 308.0 185.0 C 357.1 185.0, 367.9 341.0, 417.0 341.0" fill="none" stroke="#8795a8" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="362.5" y="252.0" text-anchor="middle" fill="#617086" font-size="12" font-family="system-ui, sans-serif">works on</text>
-<path d="M 554.0 303.0 C 554.0 303.0, 554.0 232.0, 554.0 232.0" fill="none" stroke="#8795a8" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="554.0" y="256.5" text-anchor="middle" fill="#617086" font-size="12" font-family="system-ui, sans-serif">part of</text>
-<path d="M 682.0 341.0 C 731.0 341.0, 742.0 185.0, 791.0 185.0" fill="none" stroke="#8795a8" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="736.5" y="252.0" text-anchor="middle" fill="#617086" font-size="12" font-family="system-ui, sans-serif">decided</text>
-<rect x="52" y="147" width="256" height="76" rx="12" fill="#ffffff" stroke="#dce3ec"/>
-<rect x="52" y="147" width="5" height="76" rx="2" fill="#c45f36"/>
-<text x="72" y="175" fill="#c45f36" font-size="11" font-weight="700" font-family="system-ui, sans-serif">PERSON</text>
-<text x="72" y="201" fill="#172338" font-size="16" font-weight="600" font-family="system-ui, sans-serif">Alex Example</text>
-<rect x="426" y="147" width="256" height="76" rx="12" fill="#ffffff" stroke="#dce3ec"/>
-<rect x="426" y="147" width="5" height="76" rx="2" fill="#346a93"/>
-<text x="446" y="175" fill="#346a93" font-size="11" font-weight="700" font-family="system-ui, sans-serif">PROJECT</text>
-<text x="446" y="201" fill="#172338" font-size="16" font-weight="600" font-family="system-ui, sans-serif">Atlas Program</text>
-<rect x="426" y="303" width="256" height="76" rx="12" fill="#ffffff" stroke="#dce3ec"/>
-<rect x="426" y="303" width="5" height="76" rx="2" fill="#346a93"/>
-<text x="446" y="331" fill="#346a93" font-size="11" font-weight="700" font-family="system-ui, sans-serif">PROJECT</text>
-<text x="446" y="357" fill="#172338" font-size="16" font-weight="600" font-family="system-ui, sans-serif">Project Orbit</text>
-<rect x="800" y="147" width="256" height="76" rx="12" fill="#ffffff" stroke="#dce3ec"/>
-<rect x="800" y="147" width="5" height="76" rx="2" fill="#7a5ba7"/>
-<text x="820" y="175" fill="#7a5ba7" font-size="11" font-weight="700" font-family="system-ui, sans-serif">DECISION</text>
-<text x="820" y="201" fill="#172338" font-size="16" font-weight="600" font-family="system-ui, sans-serif">Orbit pilot decision</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Fictional personal knowledge graph</title>
+<desc id="desc">A synthetic dark graph view showing an example person linked to projects, decisions, and notes. It contains no private vault data.</desc>
+<rect width="900" height="520" fill="#1b1b1d"/>
+<rect width="900" height="34" fill="#242426"/>
+<path d="M0 34H900M170 34V520" stroke="#343438" stroke-width="1"/>
+<rect x="17" y="8" width="14" height="13" rx="2" fill="none" stroke="#a4a4a8" stroke-width="1.3"/>
+<path d="M20 10V7h5l2 3" fill="none" stroke="#a4a4a8" stroke-width="1.1"/>
+<text x="47" y="21" fill="#dedee0" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">Example vault</text>
+<text x="188" y="21" fill="#e6e6e7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">◇  Graph view</text>
+<text x="850" y="21" fill="#aaaab0" font-size="17" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">···</text>
+<text x="18" y="59" fill="#88888f" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">EXAMPLE NOTES</text>
+<path d="M17 72H151" stroke="#343438"/>
+<text x="20" y="97" fill="#bdbdc1" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">▾  wiki</text>
+<text x="35" y="121" fill="#a8a8ae" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">▾  people</text>
+<text x="50" y="142" fill="#9c9ca3" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">alex-example</text>
+<text x="35" y="170" fill="#a8a8ae" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">▾  projects</text>
+<text x="50" y="191" fill="#9c9ca3" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">atlas-project</text>
+<text x="50" y="211" fill="#9c9ca3" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">research-notes</text>
+<text x="35" y="239" fill="#a8a8ae" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">▸  decisions</text>
+<text x="35" y="267" fill="#a8a8ae" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">▸  topics</text>
+<path d="M17 288H151" stroke="#343438"/>
+<text x="20" y="315" fill="#8c8c92" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">SOURCES</text>
+<text x="35" y="341" fill="#9c9ca3" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">documents</text>
+<text x="35" y="364" fill="#9c9ca3" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">selected chats</text>
+<text x="20" y="491" fill="#77777e" font-size="10" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">Synthetic example</text>
+<text x="854" y="491" fill="#66666e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">⌕</text>
+
+<path d="M416 260 L365 112" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M416 260 L603 188" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M416 260 L271 344" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M416 260 L218 186" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M416 260 L430 405" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M416 260 L564 311" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M603 188 L564 311" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M603 188 L750 127" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M603 188 L537 102" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M603 188 L724 270" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M564 311 L596 429" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M564 311 L734 357" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M564 311 L724 270" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M271 344 L283 447" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M271 344 L430 405" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M430 405 L464 472" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M596 429 L734 357" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M734 357 L790 445" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M724 270 L796 223" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<path d="M750 127 L796 223" stroke="#44454a" stroke-width="1.15" fill="none"/>
+<circle cx="416" cy="260" r="14" fill="#c5c8ce" opacity=".08"/>
+<circle cx="416" cy="260" r="9" fill="#c5c8ce"/>
+<text x="416" y="282" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">alex-example</text>
+<circle cx="603" cy="188" r="13" fill="#e75b5d" opacity=".08"/>
+<circle cx="603" cy="188" r="8" fill="#e75b5d"/>
+<text x="603" y="210" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">atlas-project</text>
+<circle cx="365" cy="112" r="12" fill="#e75b5d" opacity=".08"/>
+<circle cx="365" cy="112" r="7" fill="#e75b5d"/>
+<text x="365" y="134" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">research-notes</text>
+<circle cx="564" cy="311" r="12" fill="#e75b5d" opacity=".08"/>
+<circle cx="564" cy="311" r="7" fill="#e75b5d"/>
+<text x="564" y="333" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">prototype</text>
+<circle cx="750" cy="127" r="12" fill="#e75b5d" opacity=".08"/>
+<circle cx="750" cy="127" r="7" fill="#e75b5d"/>
+<text x="750" y="149" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">launch-plan</text>
+<circle cx="271" cy="344" r="12" fill="#e75b5d" opacity=".08"/>
+<circle cx="271" cy="344" r="7" fill="#e75b5d"/>
+<text x="271" y="366" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">study-tracker</text>
+<circle cx="596" cy="429" r="12" fill="#e4bc64" opacity=".08"/>
+<circle cx="596" cy="429" r="7" fill="#e4bc64"/>
+<text x="596" y="451" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">design-decision</text>
+<circle cx="734" cy="357" r="12" fill="#e4bc64" opacity=".08"/>
+<circle cx="734" cy="357" r="7" fill="#e4bc64"/>
+<text x="734" y="379" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">review-cycle</text>
+<circle cx="724" cy="270" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="724" cy="270" r="6" fill="#9da3ae"/>
+<text x="724" y="292" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">source-catalog</text>
+<circle cx="218" cy="186" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="218" cy="186" r="6" fill="#9da3ae"/>
+<text x="218" y="208" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">reading-list</text>
+<circle cx="283" cy="447" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="283" cy="447" r="6" fill="#9da3ae"/>
+<text x="283" y="469" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">team-notes</text>
+<circle cx="430" cy="405" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="430" cy="405" r="6" fill="#9da3ae"/>
+<text x="430" y="427" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">learning-log</text>
+<circle cx="464" cy="472" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="464" cy="472" r="6" fill="#9da3ae"/>
+<text x="464" y="494" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">weekly-summary</text>
+<circle cx="790" cy="445" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="790" cy="445" r="6" fill="#9da3ae"/>
+<text x="790" y="467" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">test-results</text>
+<circle cx="796" cy="223" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="796" cy="223" r="6" fill="#9da3ae"/>
+<text x="796" y="245" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">open-questions</text>
+<circle cx="537" cy="102" r="11" fill="#9da3ae" opacity=".08"/>
+<circle cx="537" cy="102" r="6" fill="#9da3ae"/>
+<text x="537" y="124" text-anchor="middle" fill="#d8d8dc" font-size="11.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">project-brief</text>
+<rect x="609" y="474" width="222" height="25" rx="5" fill="#242427" stroke="#3c3c40"/>
+<circle cx="626" cy="486" r="4" fill="#c5c8ce"/><text x="636" y="490" fill="#aeb0b5" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">person</text>
+<circle cx="682" cy="486" r="4" fill="#e75b5d"/><text x="692" y="490" fill="#aeb0b5" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">project</text>
+<circle cx="750" cy="486" r="4" fill="#e4bc64"/><text x="760" y="490" fill="#aeb0b5" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">decision</text>
 </svg>
