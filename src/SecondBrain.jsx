@@ -9,6 +9,6 @@ export default function SecondBrain(){
       <p className="thesis-stack">Python · SQLite FTS5 · Markdown · Obsidian · Codex</p>
       <div className="project-links"><a className="text-link" href="https://github.com/hibaa8/ai-second-brain" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true" className="arrow">↗</span></a></div>
     </div>
-    <figure className="second-brain-preview"><a href="./second-brain-demo-graph.svg" target="_blank" rel="noopener noreferrer" aria-label="Open synthetic Second Brain graph example"><img src="./second-brain-demo-graph.svg" alt="Fictional example of four linked wiki pages with source-backed relationships" loading="lazy"/></a><figcaption>A fictional example of source-backed wiki links. The personal vault is private.</figcaption></figure>
+    <figure className="second-brain-preview"><a href="./second-brain-demo-graph.svg" target="_blank" rel="noopener noreferrer" aria-label="Open synthetic Second Brain graph example"><img src="./second-brain-demo-graph.svg" alt="Dark graph view of a fictional vault with linked people, projects, decisions, and notes" loading="lazy"/></a><figcaption>A synthetic vault graph modeled on the project’s Obsidian view. Select to see it full size.</figcaption></figure>
   </section>
 }

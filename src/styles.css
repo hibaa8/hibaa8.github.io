@@ -95,7 +95,7 @@ nav a{position:relative}nav a:not([aria-current])::after{content:"";position:abs
 @media(prefers-reduced-motion:reduce){.thesis-preview a:hover img{transform:none}}
 
 .second-brain-project .thesis-stack{margin-top:18px;font-size:13px;color:#666}
-.second-brain-preview a{display:block;overflow:hidden;border:1px solid var(--line);background:#f7f9fc}
+.second-brain-preview a{display:block;overflow:hidden;border:1px solid var(--line);background:#1b1b1d}
 .second-brain-preview a:hover{opacity:1}
 .second-brain-preview img{display:block;width:100%;height:260px;object-fit:contain;transition:transform .35s ease}
 .second-brain-preview a:hover img{transform:scale(1.025)}
