@@ -1,4 +1,4 @@
-# Hiba Altaf — personal website
+# personal website
 
 A responsive, monochrome portfolio built with React 19 and Vite. Five static entry pages work directly on GitHub Pages, including repository subpaths. IntersectionObserver and CSS provide subtle scroll entrances and link hover effects. Reduced-motion preferences are respected.
 
