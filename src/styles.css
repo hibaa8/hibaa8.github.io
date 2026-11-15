@@ -94,6 +94,15 @@ nav a{position:relative}nav a:not([aria-current])::after{content:"";position:abs
 @media(max-width:600px){.thesis-preview img{height:280px}}
 @media(prefers-reduced-motion:reduce){.thesis-preview a:hover img{transform:none}}
 
+.second-brain-project .thesis-stack{margin-top:18px;font-size:13px;color:#666}
+.second-brain-preview a{display:block;overflow:hidden;border:1px solid var(--line);background:#f7f9fc}
+.second-brain-preview a:hover{opacity:1}
+.second-brain-preview img{display:block;width:100%;height:260px;object-fit:contain;transition:transform .35s ease}
+.second-brain-preview a:hover img{transform:scale(1.025)}
+.second-brain-preview figcaption{font-size:12px;color:#666;line-height:1.6;margin-top:9px}
+@media(max-width:900px){.second-brain-project{grid-template-columns:1fr}.second-brain-preview{max-width:700px}}
+@media(prefers-reduced-motion:reduce){.second-brain-preview a:hover img{transform:none}}
+
 /* Keep the Straiker overview compact; the detailed architecture opens on demand. */
 .straiker-project{padding-top:35px;padding-bottom:35px}
 .straiker-highlights{margin:20px 0 0;padding:18px 0}
