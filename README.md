@@ -42,7 +42,6 @@ Facts come from the supplied October 2026 résumé, the user's leadership descri
 - WiCS and CSI leadership titles are confirmed by Hiba; WiCS links to the website she built.
 - CodeCure repository is linked from Hiba's public GitHub profile. It could not be fetched during preparation; visitors may need repository access.
 - SUITS links to the 2026 Magic Leap repository provided by Hiba; the Magic Leap 2 project description comes from the résumé.
-- SaferMaps description and technology stack are based on its public README: https://github.com/hibaa8/saferMaps.
 
 The website uses the repository’s existing GitHub Pages deployment.
 
