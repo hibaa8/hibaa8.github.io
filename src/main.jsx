@@ -35,7 +35,7 @@ function Home(){return <><section className="hero reveal"><img className="headsh
 <div><h2>What I’m learning</h2>
 <p><b>Go</b> — exploring the language and its approach to concurrency for backend services.</p>
 <p><b>Operating systems</b> — deepening my understanding of processes, memory management, and how software interacts with hardware.</p>
-<p><b>System design</b> — learning how to design reliable, scalable services and reason about architectural tradeoffs.</p>
+<p><b>Physical AI</b> — exploring how AI systems perceive, reason, and act in the physical world.</p>
 <p><b>AI and machine learning</b> — how agents use memory, retrieval, and evaluation to solve problems more reliably.</p></div>
 </section></>}
 const leadershipRoles = [
