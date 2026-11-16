@@ -121,6 +121,3 @@ nav a{position:relative}nav a:not([aria-current])::after{content:"";position:abs
 @media(prefers-reduced-motion:reduce){.straiker-technical-content{animation:none}.straiker-technical .straiker-toggle{transition:none}}
 
 .side-project-grid{grid-template-columns:minmax(0,1fr);max-width:620px}
-
-.hero-linkedin{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;flex:none}
-.hero-linkedin-mark{display:grid;place-items:center;width:21px;height:21px;border-radius:2px;background:#161616;color:#fff;font-size:15px;font-weight:700;line-height:1;letter-spacing:-1px;padding-right:1px}
